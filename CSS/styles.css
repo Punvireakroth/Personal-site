@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  /*all 4 size is going to be 0*/
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  margin-top: 50px auto 0 auto;
+  /* remove margin in defult css */
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 50px auto 50px auto;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin-bottom: 50px;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover{
+  color:#EAF6F6;
+}
+
+p{
+  font-weight:bold;
+  color:#343A40;
+}
+
+hr{
+  border-top: 5px dotted;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 5%;
+  color:#2F5D62;
+  margin: 100px auto 100px auto;
+}
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: white;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 30px 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.programmer {
+  font-weight: normal;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.code-images{
+  width: 25%;
+  height:25%;
+  float: left;
+  padding-right: 50px;
+}
+
+.skill-images{
+  width: 25%;
+  height:25%;
+  float: right;
+  padding-left: 50px;
+}
+
+.profile-vireak{
+  margin-top: 80px;
+}
+
+.hello {
+  width: 30%;
+  line-height: 2;
+  margin: auto;
+
+}
+
+.text-footer{
+  color: #EAF6F6;
+  font-size:0.75rem;
+  padding-top: 20px;
+}
+
+
+.btn {
+   background: #42A79D;
+   background-image: -webkit-linear-gradient(top, #42A79D, #37B1B1);
+   background-image: -moz-linear-gradient(top, #42A79D, #37B1B1);
+   background-image: -ms-linear-gradient(top, #42A79D, #37B1B1);
+   background-image: -o-linear-gradient(top, #42A79D, #37B1B1);
+   background-image: -webkit-gradient(to bottom, #42A79D, #37B1B1);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+   font-weight: 100;
+   padding: 13px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 40px auto 70px auto;
+}
